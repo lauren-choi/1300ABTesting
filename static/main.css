@@ -1,18 +1,46 @@
 /* Feel free to modify anything in this file.*/
 html body {
-	background-color: #ecedd5;
+  background-color: #ecedd5;
 }
 
 header {
 	padding-left: 40px;
-	padding-top: 20px;
+  padding-top: 20px;
 }
 
 .vendor-wrapper {
+  display: flex;
+  flex-direction: column;
 	justify-content: left;
 	padding-left: 40px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.vendor-wrapper-b {
+	padding-left: 40px;
+	padding-top: 20px;
+  padding-bottom: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row-1, .row-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-pane-b {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.btn {
+  width: 100px;
+  margin: 2rem 0 2rem 0;
 }
 
 .vendor-photo {
@@ -52,4 +80,14 @@ header {
 
 .red-cart {
 	color: #DF0000;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#cart-wrapper {
+  padding-right: 40px;
 }
